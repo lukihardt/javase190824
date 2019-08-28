@@ -40,7 +40,7 @@ public class Test {
 		// 冒泡排序
 		bubbleSort();
 		// 选择排序
-		selectSort();
+		//selectSort();
 	}
 
 	public static void RightTriangle() {
@@ -216,8 +216,8 @@ public class Test {
 		System.out.println(Arrays.toString(arr));
 	}
 
-	public static void selectSort() {
-		int arr[] = { 1, 2, 3, 7, 8, 9, 5, 5};
+	public static void selectSort(int arr[]) {
+		//int arr[] = { 1, 2, 3, 7, 8, 9, 5, 5};
 		// 第一遍循环找出最小值为13,下标为5
 		// arr.length = 8
 		int mark = 0;

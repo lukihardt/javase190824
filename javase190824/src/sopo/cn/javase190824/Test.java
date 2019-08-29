@@ -1,9 +1,9 @@
 package sopo.cn.javase190824;
 
 import java.util.Arrays;
+import sopo.cn.differentpackage.PrivateClass;
 
 public class Test {
-
 	public static void main(String[] args) {
 		String str = "thinking in java";
 
@@ -41,6 +41,7 @@ public class Test {
 		bubbleSort();
 		// 选择排序
 		//selectSort();
+		
 	}
 
 	public static void RightTriangle() {
@@ -236,4 +237,8 @@ public class Test {
 		}
 		System.out.println(Arrays.toString(arr));
 	}
+	
+	PrivateClass pc = new PrivateClass();
 }
+
+//测试看看github能否修改已提交文件

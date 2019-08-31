@@ -1,6 +1,16 @@
 package sopo.cn.oop;
 
 public class Teacher extends Person2{
+	
+	public Teacher() {
+		super();
+	}
+
+	public Teacher(String nameString, int age) {
+		super(nameString, age);
+		// TODO Auto-generated constructor stub
+	}
+	
 	int salary;
 	String schoolString;
 	

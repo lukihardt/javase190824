@@ -23,7 +23,14 @@ public class Test01 {
 			}
 		};
 		
+		System.out.println("================");
+		
 		Computer computer = new Computer();
 		computer.plugin(usb);
+		
+		OuterClass.InnerClass outerinnerclass = new OuterClass().new InnerClass();
+		outerinnerclass.display();
+		
+		outerinnerclass.getOuterClass().display();
 	}
 }
